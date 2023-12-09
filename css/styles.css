@@ -101,32 +101,41 @@ a {
 
 /* MAIN */
 
-/* Section 1 */
-
-.effective-solutions-background {
+/* Section HERO */
+.hero-container {
+  padding: 188px 0;
+}
+.hero {
   background: #2e2f42;
 }
-.title-first {
+.hero-title {
+  margin: auto;
+  margin-bottom: 48px;
+  width: 496px;
+
   color: #fff;
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07em;
   letter-spacing: 0.02em;
 }
-.button {
+.button-hero {
+  padding: 16px 32px;
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+
   color: #fff;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.04em;
   background: #4d5ae5;
   cursor: pointer;
 }
-.button:hover {
-  background: #404bbf;
-}
-.button:focus {
+.button-hero:is(:hover, :focus) {
   background: #404bbf;
 }
 
