@@ -111,15 +111,15 @@ img {
 
 /* Section HERO */
 .hero-container {
-  padding: 188px 0;
 }
 .hero {
   background: #2e2f42;
+  padding: 188px 0 188px;
 }
 .hero-title {
   margin: auto;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 
   color: #fff;
   text-align: center;
@@ -131,7 +131,8 @@ img {
   padding: 16px 32px;
   display: block;
   margin: auto;
-  border-radius: 4px;
+  min-width: 169px;
+
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
@@ -215,8 +216,10 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.team-container {
+  padding: 32px 0;
+}
 .team-list-title {
-  margin-top: 32px;
   margin-bottom: 8px;
 
   color: #2e2f42;
@@ -227,8 +230,6 @@ img {
   letter-spacing: 0.02em;
 }
 .team-list-text {
-  margin-bottom: 32px;
-
   color: #434455;
   text-align: center;
   font-size: 16px;
@@ -259,7 +260,7 @@ img {
   background: #fff;
 }
 .portfolio-list-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -282,15 +283,18 @@ img {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-container {
-  padding: 100px 0;
 }
 .logo-span-footer {
   color: #f4f4fd;
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-paragraph {
-  margin-top: 17px;
   width: 264px;
   color: #f4f4fd;
   font-size: 16px;
