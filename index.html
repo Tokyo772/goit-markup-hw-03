@@ -6,48 +6,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
       integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!-- HAIDER -->
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-span">Studio</span></a
-        >
-        <ul>
-          <li>
-            <a href="./index.html" class="nav-adress">Studio</a>
-          </li>
-          <li><a href="" class="nav-adress">Portfolio</a></li>
-          <li><a href="" class="nav-adress">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="list-address"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="list-address"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo logo-header" href="./index.html"
+            >Web<span class="logo-span">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="item">
+              <a href="./index.html" class="nav-adress">Studio</a>
+            </li>
+            <li class="item"><a href="" class="nav-adress">Portfolio</a></li>
+            <li class="item"><a href="" class="nav-adress">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="auth-list">
+            <li class="list">
+              <a href="mailto:info@devstudio.com" class="list-address"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list">
+              <a href="tel:+110001111111" class="list-address"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- MAIN -->
     <main>
@@ -197,8 +200,8 @@
     </main>
     <!-- FOOTER -->
     <footer class="footer">
-      <a class="logo-footer" href="./index.html"
-        >Web<span class="logo-span-footer">Studio</span></a
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-span-footer logo">Studio</span></a
       >
       <p class="footer-paragraph">
         Increase the flow of customers and sales for your business with digital
