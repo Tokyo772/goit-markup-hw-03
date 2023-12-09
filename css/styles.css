@@ -101,9 +101,13 @@ a {
 
 /* MAIN */
 
+.section {
+  padding: 120px 0;
+}
+
 /* Section HERO */
 .hero-container {
-  padding: 188px 0;
+  /* padding: 188px 0; */
 }
 .hero {
   background: #2e2f42;
@@ -139,19 +143,42 @@ a {
   background: #404bbf;
 }
 
-/* Section 2 */
+/* Section Advantages */
 
-.advantages-list-title {
+.advantages-container {
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.advantages-items {
+  width: calc((100% - 24px) / 4);
+}
+.advantages-title {
+  margin-bottom: 8px;
+
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
 }
-.advantages-list-paragraph {
+.advantages-text {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Section 3 */
